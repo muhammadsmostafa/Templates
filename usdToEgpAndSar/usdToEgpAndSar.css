@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.price{
+    font-size: 100px;
+}
+.price input, .price button{
+    border: none;
+    height: 40px;
+    padding: 0 30px;
+}
+.price input:focus{
+    border: none;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin: 20px auto;
+    background-color: gray;
+}
+a {
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: brown;
+    color: wheat;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    margin: 20px auto;
+}
+a:visited{
+    color: wheat;
+}
+a:hover{
+    color: brown;
+    background-color: wheat;
+}

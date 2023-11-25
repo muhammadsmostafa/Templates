@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 41px;
+    outline: 4px solid red;
+}
+.links a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.links a:hover{
+    color: red;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 20px 25px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #c31432, #892211);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    color: red;
+    background: white;
+    border: red 1px solid;
+    transition: 0.2s;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.free-trial{
+    color: red;
+    font-size: 16px;
+}
+.container p{
+    color: gray;
+}
+.container *{
+    margin: 25px 0;
+}
+.two-lines{
+    font-size: 50px;
+    color: white;
+}
+.users img{
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin: 0 -5px;
+}
+.users div{
+    color: white;
+    font-size: 25px;
+    display: inline;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 100%;
+}
+.container button{
+    width: fit-content;
+}

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.first-container{
+    text-align: center;
+    padding: 30px;
+}
+.first-container h2 { 
+    color: white;
+    font-size: 45px;
+}
+ .first-container div{
+    color: white;
+    font-size: 20px;
+ }
+ .white-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0px auto;
+    background: white;
+    align-items: center;
+    padding: 0px;
+ }
+ .white-container img{
+    width: 100%;
+ }
+ .white-container blockquote{
+    font-size: 3rem;
+    text-align: center;
+ }
+ .last-container{
+    padding: 10px 20px;
+ }
+ @media(min-width: 1500px){
+.last-container{
+    margin: 0 400px;
+    text-align: center;
+}
+ }
+ .last-container h2{
+    color: white;
+    font-size: 60px;
+ }
+ .last-container p{
+    text-align: start;
+    color: white;
+    font-size: 27px;
+ }
+ .last-container .bio{
+    text-align: start;
+ }
